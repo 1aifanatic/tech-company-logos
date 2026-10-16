@@ -1,0 +1,8 @@
+logo.svg and icon.svg are missing for Clay.
+
+Why: clay.com (checked 2026-10-16) publishes no vector version of its logo or
+icon - the official assets are raster only ("Clay primary logo" PNG 509x163 and
+"Clay icon" AVIF 400x400, both transparent, taken from the site's own CDN).
+The official logo and icon are present as logo.png / logo-512.png / logo-1024.png
+and icon.png / icon-512.png / icon-1024.png, rendered from those genuine files.
+We do not redraw or approximate brand marks, so the SVGs are intentionally absent.

@@ -9,7 +9,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const NAMES = {
   'adobe': 'Adobe', 'amazon': 'Amazon', 'amd': 'AMD', 'anthropic': 'Anthropic',
   'apple': 'Apple', 'atlassian': 'Atlassian', 'cerebras': 'Cerebras',
-  'character-ai': 'Character.ai', 'cisco': 'Cisco', 'cohere': 'Cohere',
+  'character-ai': 'Character.ai', 'cisco': 'Cisco', 'clay': 'Clay', 'cohere': 'Cohere',
   'databricks': 'Databricks', 'datadog': 'Datadog', 'dell': 'Dell',
   'docker': 'Docker', 'elevenlabs': 'ElevenLabs', 'github': 'GitHub',
   'gitlab': 'GitLab', 'google-deepmind': 'Google DeepMind', 'google': 'Google',

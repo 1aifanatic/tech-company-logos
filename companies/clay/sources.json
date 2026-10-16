@@ -1,0 +1,8 @@
+{
+  "logo.png": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6778506d788ebf16fef48551_Clay%20primary%20logo.png (official \"Clay primary logo\" asset, transparent PNG 509x163, downloaded from clay.com homepage 2026-10-16)",
+  "logo-512.png": "rendered from logo.png (sharp: fit inside 512x512, centered on transparent canvas)",
+  "logo-1024.png": "rendered from logo.png (sharp: fit inside 1024x1024, centered on transparent canvas; source is 509px wide)",
+  "icon.png": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a3a92ab2ebcb50096cbd51a_dot-com_favicon_2026_512.png (official clay.com favicon, <link rel=\"icon\" sizes=\"512x512\">, transparent PNG 512x512, downloaded 2026-10-16)",
+  "icon-512.png": "rendered from icon.png (sharp: fit inside 512x512, centered on transparent canvas)",
+  "icon-1024.png": "rendered from icon.png (sharp: fit inside 1024x1024, centered on transparent canvas)"
+}

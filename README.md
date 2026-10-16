@@ -21,6 +21,7 @@ Note: some brand owners (e.g. GitHub) ask that their marks only be used with pri
 | <img src="companies/cerebras/icon-512.png" width="32" height="32" alt="Cerebras icon"> | Cerebras | ✅ | ✅ | — |
 | <img src="companies/character-ai/icon-512.png" width="32" height="32" alt="Character.ai icon"> | Character.ai | ✅ | ✅ | — |
 | <img src="companies/cisco/icon-512.png" width="32" height="32" alt="Cisco icon"> | Cisco | ✅ | ✅ | — |
+| <img src="companies/clay/icon-512.png" width="32" height="32" alt="Clay icon"> | Clay | ✅ | ✅ | — *(see MISSING.txt)* |
 | <img src="companies/cohere/icon-512.png" width="32" height="32" alt="Cohere icon"> | Cohere | ✅ | ✅ | — *(see MISSING.txt)* |
 | <img src="companies/databricks/icon-512.png" width="32" height="32" alt="Databricks icon"> | Databricks | ✅ | ✅ | — |
 | <img src="companies/datadog/icon-512.png" width="32" height="32" alt="Datadog icon"> | Datadog | ✅ | ✅ | — |
@@ -73,9 +74,6 @@ companies/<company-slug>/
 ├── logo.svg          # full company logo / wordmark (SVG; logo.png when only a PNG is published)
 ├── logo-512.png      # transparent PNG render of the logo (512×512)
 ├── logo-1024.png     # transparent PNG render of the logo (1024×1024)
-├── logo-white.svg    # white/light variant of the wordmark for dark backgrounds (only where an official one exists)
-├── logo-white-512.png
-├── logo-white-1024.png
 ├── mascot.png        # official mascot artwork, only where one genuinely exists
 ├── sources.json      # exact source URL for every file in the folder
 └── MISSING.txt       # present only when an asset is intentionally absent, with the reason
