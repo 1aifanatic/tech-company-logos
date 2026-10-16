@@ -1,0 +1,7 @@
+{
+  "logo.png": "https://commons.wikimedia.org/wiki/File:Stability%20Ai%20%E2%80%94%20wordmark.png (direct: https://upload.wikimedia.org/wikipedia/commons/9/90/Stability_Ai_%E2%80%94_wordmark.png)",
+  "logo-512.png": "rendered from logo.png via scripts/download-logos.mjs (sharp, transparent 512px)",
+  "logo-1024.png": "rendered from logo.png via scripts/download-logos.mjs (sharp, transparent 1024px)",
+  "icon-512.png": "rendered from logo.png (sharp, transparent 512px) - no SVG icon published",
+  "icon-1024.png": "rendered from logo.png (sharp, transparent 1024px) - no SVG icon published"
+}

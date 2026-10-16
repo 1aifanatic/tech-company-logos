@@ -1,0 +1,8 @@
+{
+  "icon.svg": "https://elevenlabs.io/brand",
+  "icon-512.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 512px)",
+  "icon-1024.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 1024px)",
+  "logo.svg": "ElevenLabs official site header logo SVG (extracted from https://elevenlabs.io/ nav, 2026-10-16; vendored in scripts/vendor/elevenlabs/logo.svg). NOTE: the two Wikimedia Commons files (\"ElevenLabs Logo 01/03.svg\") are white-on-black variants with clipped marks and were rejected.",
+  "logo-512.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 512px)",
+  "logo-1024.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 1024px)"
+}

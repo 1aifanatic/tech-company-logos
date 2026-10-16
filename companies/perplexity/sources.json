@@ -1,0 +1,8 @@
+{
+  "icon.svg": "https://www.perplexity.ai",
+  "icon-512.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 512px)",
+  "icon-1024.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 1024px)",
+  "logo.svg": "https://commons.wikimedia.org/wiki/File:Perplexity%20AI%20logo.svg (direct: https://upload.wikimedia.org/wikipedia/commons/1/1d/Perplexity_AI_logo.svg)",
+  "logo-512.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 512px)",
+  "logo-1024.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 1024px)"
+}

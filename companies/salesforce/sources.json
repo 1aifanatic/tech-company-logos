@@ -1,0 +1,8 @@
+{
+  "icon.svg": "https://github.com/simple-icons/simple-icons/blob/9.11.0/icons/salesforce.svg",
+  "icon-512.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 512px)",
+  "icon-1024.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 1024px)",
+  "logo.svg": "https://commons.wikimedia.org/wiki/File:Salesforce.com%20logo.svg (direct: https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg)",
+  "logo-512.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 512px)",
+  "logo-1024.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 1024px)"
+}

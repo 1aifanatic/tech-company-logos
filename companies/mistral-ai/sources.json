@@ -1,0 +1,8 @@
+{
+  "icon.svg": "https://chat.mistral.ai",
+  "icon-512.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 512px)",
+  "icon-1024.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 1024px)",
+  "logo.svg": "https://commons.wikimedia.org/wiki/File:Mistral%20AI%20logo%20(2025%E2%80%93).svg (direct: https://upload.wikimedia.org/wikipedia/commons/e/e6/Mistral_AI_logo_%282025%E2%80%93%29.svg)",
+  "logo-512.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 512px)",
+  "logo-1024.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 1024px)"
+}

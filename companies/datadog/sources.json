@@ -1,0 +1,8 @@
+{
+  "icon.svg": "https://www.datadoghq.com/about/resources",
+  "icon-512.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 512px)",
+  "icon-1024.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 1024px)",
+  "logo.svg": "https://www.vectorlogo.zone/logos/datadoghq/index.html (direct: https://www.vectorlogo.zone/logos/datadoghq/datadoghq-ar21.svg) — vectorlogo.zone community collection of official brand SVGs; no suitable file on Wikimedia Commons",
+  "logo-512.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 512px)",
+  "logo-1024.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 1024px)"
+}

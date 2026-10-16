@@ -1,0 +1,8 @@
+{
+  "icon.svg": "https://www.dell.com",
+  "icon-512.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 512px)",
+  "icon-1024.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 1024px)",
+  "logo.svg": "https://commons.wikimedia.org/wiki/File:Dell%20logo%202021.svg (direct: https://upload.wikimedia.org/wikipedia/commons/6/67/Dell_logo_2021.svg)",
+  "logo-512.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 512px)",
+  "logo-1024.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 1024px)"
+}

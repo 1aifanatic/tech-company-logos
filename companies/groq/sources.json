@@ -1,0 +1,8 @@
+{
+  "logo.svg": "https://commons.wikimedia.org/wiki/File:Groq%20logo.svg (direct: https://upload.wikimedia.org/wikipedia/commons/c/cc/Groq_logo.svg)",
+  "logo-512.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 512px)",
+  "logo-1024.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 1024px)",
+  "icon.svg": "copied from logo.svg — no standalone brand icon published; icon.svg is the official full logo",
+  "icon-512.png": "rendered from icon.svg via scripts/build-icon-fallbacks.mjs (sharp, transparent 512px)",
+  "icon-1024.png": "rendered from icon.svg via scripts/build-icon-fallbacks.mjs (sharp, transparent 1024px)"
+}

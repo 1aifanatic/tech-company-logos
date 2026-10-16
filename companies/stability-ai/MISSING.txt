@@ -1,0 +1,7 @@
+icon.svg is missing for Stability AI.
+
+Why: no standalone brand-icon SVG is published anywhere we could verify.
+Searched: Wikimedia Commons ("Stability AI icon", "Stability AI logo" - only the wordmark PNG and an animated emblem GIF exist) and simple-icons (no entry).
+The official logo is present as logo.png / logo-512.png / logo-1024.png, and
+icon-512.png / icon-1024.png were rendered from that genuine PNG.
+We do not redraw or approximate brand marks, so icon.svg is intentionally absent.

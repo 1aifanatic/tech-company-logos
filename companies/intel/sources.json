@@ -1,0 +1,8 @@
+{
+  "icon.svg": "https://www.intel.com/content/www/us/en/newsroom/resources/press-kits-intel-overview.html",
+  "icon-512.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 512px)",
+  "icon-1024.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 1024px)",
+  "logo.svg": "https://commons.wikimedia.org/wiki/File:Intel%20logo%202023.svg (direct: https://upload.wikimedia.org/wikipedia/commons/8/85/Intel_logo_2023.svg)",
+  "logo-512.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 512px)",
+  "logo-1024.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 1024px)"
+}

@@ -1,0 +1,9 @@
+{
+  "icon.svg": "https://github.com/logos",
+  "icon-512.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 512px)",
+  "icon-1024.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 1024px)",
+  "logo.svg": "https://commons.wikimedia.org/wiki/File:GitHub%20Invertocat%20Logo.svg (direct: https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg)",
+  "logo-512.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 512px)",
+  "logo-1024.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 1024px)",
+  "mascot.png": "https://octodex.github.com/images/original.png (GitHub’s official Octocat gallery — the original Octocat illustration)"
+}

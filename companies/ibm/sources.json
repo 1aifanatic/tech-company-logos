@@ -1,0 +1,8 @@
+{
+  "icon.svg": "https://github.com/simple-icons/simple-icons/blob/9.11.0/icons/ibm.svg",
+  "icon-512.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 512px)",
+  "icon-1024.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 1024px)",
+  "logo.svg": "https://commons.wikimedia.org/wiki/File:IBM_logo.svg (direct: https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg) — classic blue 8-bar logo; replaced the earlier \"IBM rgb logo.svg\" pick which was a non-standard multicolor variant",
+  "logo-512.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 512px)",
+  "logo-1024.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 1024px)"
+}
