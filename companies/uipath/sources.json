@@ -2,10 +2,11 @@
   "icon.svg": "https://www.uipath.com/newsroom",
   "icon-512.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 512px)",
   "icon-1024.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 1024px)",
-  "logo.svg": "UiPath official wordmark (black variant, for light backgrounds), from UiPath's apollo-ui design-system repo — https://github.com/UiPath/apollo-ui",
+  "icon-3d-1024.png": "UiPath official 3D 'Ui' app icon, supplied by the repo owner from UiPath's MVP Digital Room (Oct 2026); white background removed, transparent 1024px",
+  "logo.svg": "Latest official lockup (Oct 2026): UiPath apollo-ui wordmark vector paths (https://github.com/UiPath/apollo-ui) with the official color treatment applied — 'i' stem + both sparkles in UiPath orange #FA4616, remaining letterforms black — verified against the official brand asset supplied by the repo owner from UiPath's MVP Digital Room",
   "logo-512.png": "rendered from logo.svg (sharp, transparent 512px)",
   "logo-1024.png": "rendered from logo.svg (sharp, transparent 1024px)",
-  "logo-white.svg": "UiPath official wordmark (white variant, for dark backgrounds), from UiPath's apollo-ui design-system repo — https://github.com/UiPath/apollo-ui",
+  "logo-white.svg": "Latest official lockup for dark backgrounds: same as logo.svg with letterforms in white, 'i' + sparkles kept in UiPath orange #FA4616",
   "logo-white-512.png": "rendered from logo-white.svg (sharp, transparent 512px)",
   "logo-white-1024.png": "rendered from logo-white.svg (sharp, transparent 1024px)"
 }
