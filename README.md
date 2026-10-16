@@ -73,6 +73,9 @@ companies/<company-slug>/
 ├── logo.svg          # full company logo / wordmark (SVG; logo.png when only a PNG is published)
 ├── logo-512.png      # transparent PNG render of the logo (512×512)
 ├── logo-1024.png     # transparent PNG render of the logo (1024×1024)
+├── logo-white.svg    # white/light variant of the wordmark for dark backgrounds (only where an official one exists)
+├── logo-white-512.png
+├── logo-white-1024.png
 ├── mascot.png        # official mascot artwork, only where one genuinely exists
 ├── sources.json      # exact source URL for every file in the folder
 └── MISSING.txt       # present only when an asset is intentionally absent, with the reason

@@ -2,7 +2,10 @@
   "icon.svg": "https://www.uipath.com/newsroom",
   "icon-512.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 512px)",
   "icon-1024.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 1024px)",
-  "logo.svg": "https://commons.wikimedia.org/wiki/File:UiPath%202025%20logo.svg (direct: https://upload.wikimedia.org/wikipedia/commons/2/2c/UiPath_2025_logo.svg)",
-  "logo-512.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 512px)",
-  "logo-1024.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 1024px)"
+  "logo.svg": "UiPath official wordmark (black variant, for light backgrounds), from UiPath's apollo-ui design-system repo — https://github.com/UiPath/apollo-ui",
+  "logo-512.png": "rendered from logo.svg (sharp, transparent 512px)",
+  "logo-1024.png": "rendered from logo.svg (sharp, transparent 1024px)",
+  "logo-white.svg": "UiPath official wordmark (white variant, for dark backgrounds), from UiPath's apollo-ui design-system repo — https://github.com/UiPath/apollo-ui",
+  "logo-white-512.png": "rendered from logo-white.svg (sharp, transparent 512px)",
+  "logo-white-1024.png": "rendered from logo-white.svg (sharp, transparent 1024px)"
 }
