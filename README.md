@@ -39,12 +39,12 @@ Note: some brand owners (e.g. GitHub) ask that their marks only be used with pri
 | <img src="companies/intuit/icon-512.png" width="32" height="32" alt="Intuit icon"> | Intuit | ✅ | ✅ | — |
 | <img src="companies/kubernetes/icon-512.png" width="32" height="32" alt="Kubernetes icon"> | Kubernetes | ✅ | ✅ | — |
 | <img src="companies/langchain/icon-512.png" width="32" height="32" alt="LangChain icon"> | LangChain | ✅ | ✅ | — |
-| <img src="companies/meta/icon-512.png" width="32" height="32" alt="Meta icon"> | Meta | ✅ | ✅ | — |
+| <img src="companies/meta/icon-512.png" width="32" height="32" alt="Meta icon"> | Meta | ✅ | ✅ | ✅ |
 | <img src="companies/microsoft/icon-512.png" width="32" height="32" alt="Microsoft icon"> | Microsoft | ✅ | ✅ | — |
 | <img src="companies/midjourney/icon-512.png" width="32" height="32" alt="Midjourney icon"> | Midjourney | ✅ | ✅ | — |
 | <img src="companies/mistral-ai/icon-512.png" width="32" height="32" alt="Mistral AI icon"> | Mistral AI | ✅ | ✅ | — |
 | <img src="companies/nvidia/icon-512.png" width="32" height="32" alt="NVIDIA icon"> | NVIDIA | ✅ | ✅ | — |
-| <img src="companies/openai/icon-512.png" width="32" height="32" alt="OpenAI icon"> | OpenAI | ✅ | ✅ | — |
+| <img src="companies/openai/icon-512.png" width="32" height="32" alt="OpenAI icon"> | OpenAI | ✅ | ✅ | ✅ ×4 |
 | <img src="companies/oracle/icon-512.png" width="32" height="32" alt="Oracle icon"> | Oracle | ✅ | ✅ | — |
 | <img src="companies/palantir/icon-512.png" width="32" height="32" alt="Palantir icon"> | Palantir | ✅ | ✅ | — |
 | <img src="companies/perplexity/icon-512.png" width="32" height="32" alt="Perplexity icon"> | Perplexity | ✅ | ✅ | — |
@@ -75,6 +75,8 @@ companies/<company-slug>/
 ├── logo-512.png      # transparent PNG render of the logo (512×512)
 ├── logo-1024.png     # transparent PNG render of the logo (1024×1024)
 ├── mascot.png        # official mascot artwork, only where one genuinely exists
+├── mascots/           # when a company has several official mascot characters
+│                      # (e.g. OpenAI's Dots), one transparent PNG per character
 ├── sources.json      # exact source URL for every file in the folder
 └── MISSING.txt       # present only when an asset is intentionally absent, with the reason
 ```

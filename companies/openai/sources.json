@@ -4,5 +4,9 @@
   "icon-1024.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 1024px)",
   "logo.svg": "https://commons.wikimedia.org/wiki/File:OpenAI%20Blossom%20and%20wordmark%20combination%202025.svg (direct: https://upload.wikimedia.org/wikipedia/commons/0/04/OpenAI_Blossom_and_wordmark_combination_2025.svg)",
   "logo-512.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 512px)",
-  "logo-1024.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 1024px)"
+  "logo-1024.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 1024px)",
+  "mascots/dots-pink-sunglasses.png": "OpenAI Dots mascot (pink blob with sunglasses) \u2014 supplied by the repo owner from OpenAI's official Dots announcement materials (DevDay, Sept 29 2026); white background removed, transparent 1024px",
+  "mascots/dots-blue-beret.png": "OpenAI Dots mascot (blue blob with black beret) \u2014 supplied by the repo owner from OpenAI's official Dots announcement materials (DevDay, Sept 29 2026); white background removed, transparent 1024px",
+  "mascots/dots-green-frog.png": "OpenAI Dots mascot (green frog blob) \u2014 supplied by the repo owner from OpenAI's official Dots announcement materials (DevDay, Sept 29 2026); white background removed, transparent 1024px",
+  "mascots/dots-yellow-glasses.png": "OpenAI Dots mascot (yellow blob with glasses) \u2014 supplied by the repo owner from OpenAI's official Dots announcement materials (DevDay, Sept 29 2026); white background removed, transparent 1024px"
 }

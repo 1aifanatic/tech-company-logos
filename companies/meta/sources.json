@@ -4,5 +4,6 @@
   "icon-1024.png": "rendered from icon.svg via scripts/build-icons.mjs (sharp, transparent 1024px)",
   "logo.svg": "https://commons.wikimedia.org/wiki/File:Meta%20Platforms%20Inc.%20logo.svg (direct: https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg)",
   "logo-512.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 512px)",
-  "logo-1024.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 1024px)"
+  "logo-1024.png": "rendered from logo.svg via scripts/download-logos.mjs (sharp, transparent 1024px)",
+  "mascot.png": "Jolly \u2014 the official mascot of Meta's Muse AI agent (the furry Yeti-like character with rosy cheeks, launched Sept 2026). Genuine Meta asset, via the '10 Ways Meta's Muse Changes Your Life' video build (Oct 2026); circular crop with transparent background, native 284px."
 }

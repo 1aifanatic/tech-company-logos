@@ -23,22 +23,30 @@ for (const slug of slugs) {
     else if (f.endsWith('.txt')) counts.txt++;
     if (statSync(p).size < 100) errors.push(`${slug}/${f}: suspiciously small (${statSync(p).size}b)`);
   }
-  // PNG checks
-  for (const f of files.filter(f => f.endsWith('.png'))) {
-    const p = join(dir, f);
+  // PNG checks (top-level + mascots/ subfolder)
+  const pngJobs = files.filter(f => f.endsWith('.png')).map(f => [f, join(dir, f)]);
+  const mascotsDir = join(dir, 'mascots');
+  if (existsSync(mascotsDir)) {
+    for (const f of readdirSync(mascotsDir).filter(f => f.endsWith('.png'))) {
+      pngJobs.push([`mascots/${f}`, join(mascotsDir, f)]);
+      counts.png++;
+    }
+  }
+  for (const [label, p] of pngJobs) {
+    const f = label.split('/').pop();
     try {
       const img = sharp(p);
       const m = await img.metadata();
-      if (!m.hasAlpha) errors.push(`${slug}/${f}: no alpha channel`);
+      if (!m.hasAlpha) errors.push(`${slug}/${label}: no alpha channel`);
       const size = parseInt((f.match(/-(\d+)\.png$/) || [])[1] || '0');
       if (size && (m.width !== size || m.height !== size))
-        errors.push(`${slug}/${f}: expected ${size}x${size}, got ${m.width}x${m.height}`);
+        errors.push(`${slug}/${label}: expected ${size}x${size}, got ${m.width}x${m.height}`);
       const { data, info } = await img.raw().toBuffer({ resolveWithObject: true });
       let opaque = 0;
       for (let i = 3; i < data.length; i += info.channels) if (data[i] > 16) opaque++;
       const cov = opaque / (info.width * info.height);
-      if (cov < 0.005) errors.push(`${slug}/${f}: near-empty (${(cov * 100).toFixed(2)}%)`);
-    } catch (e) { errors.push(`${slug}/${f}: unreadable (${e.message})`); }
+      if (cov < 0.005) errors.push(`${slug}/${label}: near-empty (${(cov * 100).toFixed(2)}%)`);
+    } catch (e) { errors.push(`${slug}/${label}: unreadable (${e.message})`); }
   }
   // sources.json checks
   const sp = join(dir, 'sources.json');
@@ -50,6 +58,11 @@ for (const slug of slugs) {
     }
     if (has => false) { }
     if (existsSync(join(dir, 'mascot.png')) && !sj['mascot.png']) errors.push(`${slug}: sources.json has no entry for mascot.png`);
+    if (existsSync(join(dir, 'mascots'))) {
+      for (const f of readdirSync(join(dir, 'mascots')).filter(f => f.endsWith('.png'))) {
+        if (!sj[`mascots/${f}`]) errors.push(`${slug}: sources.json has no entry for mascots/${f}`);
+      }
+    }
   } catch (e) { errors.push(`${slug}: sources.json invalid JSON`); }
   // expected core files
   if (!existsSync(join(dir, 'icon-512.png')) || !existsSync(join(dir, 'icon-1024.png')))
