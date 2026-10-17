@@ -28,6 +28,36 @@ const NAMES = {
 const slugs = readdirSync(join(ROOT, 'companies')).filter(s => !s.startsWith('.')).sort();
 const has = (slug, f) => existsSync(join(ROOT, 'companies', slug, f));
 
+function roleGallery(sub) {
+  const dir = join(ROOT, 'roles', sub);
+  if (!existsSync(dir)) return '';
+  const files = readdirSync(dir).filter(f => f.endsWith('.png')).sort();
+  const rows = [];
+  for (let i = 0; i < files.length; i += 6) {
+    const chunk = files.slice(i, i + 6);
+    rows.push('|' + chunk.map(f => ` <img src="roles/${sub}/${f}" width="120" alt="${f.slice(0, -4)}"> `).join('|') + '|');
+    rows.push('|' + chunk.map(f => ` ${f.slice(0, -4).replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())} `).join('|') + '|');
+  }
+  return rows.join('\n');
+}
+const techGallery = roleGallery('tech');
+const genericGallery = roleGallery('generic');
+const rolesSection = (techGallery || genericGallery) ? `
+## Role icons
+
+53 original claymation-style role icons — small smiling clay heads with role-specific headwear and props. Each is a **1600×1600 transparent PNG**, dedicated to the public domain (CC0), free for any use.
+
+![Contact sheet](roles/contact-sheet.png)
+
+### Tech roles
+
+${techGallery}
+
+### Generic roles
+
+${genericGallery}
+` : '';
+
 let rows = '';
 for (const slug of slugs) {
   const name = NAMES[slug] || slug;
@@ -56,7 +86,7 @@ Note: some brand owners (e.g. GitHub) ask that their marks only be used with pri
 | Icon | Company | Icon | Logo | Mascot |
 |------|---------|------|------|--------|
 ${rows}
-## Folder structure
+${rolesSection}## Folder structure
 
 \`\`\`
 companies/<company-slug>/
@@ -69,6 +99,11 @@ companies/<company-slug>/
 ├── mascot.png        # official mascot artwork, only where one genuinely exists
 ├── sources.json      # exact source URL for every file in the folder
 └── MISSING.txt       # present only when an asset is intentionally absent, with the reason
+
+roles/
+├── tech/             # 25 tech role icons (1600×1600 transparent PNG)
+├── generic/          # 28 generic role icons (1600×1600 transparent PNG)
+└── contact-sheet.png # labeled preview grid of all 53 role icons
 \`\`\`
 
 All PNGs are rendered on transparent backgrounds, centered on a square canvas.
@@ -84,7 +119,7 @@ All PNGs are rendered on transparent backgrounds, centered on a square canvas.
 
 ## License
 
-The collection structure, build scripts, and this README are released under [CC0 1.0 Universal](LICENSE). **Third-party trademarks are not covered** — all logos, icons, and mascots remain the property of their respective owners.
+The collection structure, build scripts, and this README are released under [CC0 1.0 Universal](LICENSE). **Third-party trademarks are not covered** — all logos, icons, and mascots remain the property of their respective owners. The \`roles/\` icons are original artwork, also released under CC0 1.0 — free for any use, no attribution required.
 `;
 
 writeFileSync(join(ROOT, 'README.md'), md);

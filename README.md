@@ -44,7 +44,7 @@ Note: some brand owners (e.g. GitHub) ask that their marks only be used with pri
 | <img src="companies/midjourney/icon-512.png" width="32" height="32" alt="Midjourney icon"> | Midjourney | ✅ | ✅ | — |
 | <img src="companies/mistral-ai/icon-512.png" width="32" height="32" alt="Mistral AI icon"> | Mistral AI | ✅ | ✅ | — |
 | <img src="companies/nvidia/icon-512.png" width="32" height="32" alt="NVIDIA icon"> | NVIDIA | ✅ | ✅ | — |
-| <img src="companies/openai/icon-512.png" width="32" height="32" alt="OpenAI icon"> | OpenAI | ✅ | ✅ | ✅ ×4 |
+| <img src="companies/openai/icon-512.png" width="32" height="32" alt="OpenAI icon"> | OpenAI | ✅ | ✅ | — |
 | <img src="companies/oracle/icon-512.png" width="32" height="32" alt="Oracle icon"> | Oracle | ✅ | ✅ | — |
 | <img src="companies/palantir/icon-512.png" width="32" height="32" alt="Palantir icon"> | Palantir | ✅ | ✅ | — |
 | <img src="companies/perplexity/icon-512.png" width="32" height="32" alt="Perplexity icon"> | Perplexity | ✅ | ✅ | — |
@@ -64,6 +64,38 @@ Note: some brand owners (e.g. GitHub) ask that their marks only be used with pri
 | <img src="companies/workday/icon-512.png" width="32" height="32" alt="Workday icon"> | Workday | ✅ | ✅ | — |
 | <img src="companies/xai/icon-512.png" width="32" height="32" alt="xAI icon"> | xAI | ✅ | ✅ | — |
 
+
+## Role icons
+
+53 original claymation-style role icons — small smiling clay heads with role-specific headwear and props. Each is a **1600×1600 transparent PNG**, dedicated to the public domain (CC0), free for any use.
+
+![Contact sheet](roles/contact-sheet.png)
+
+### Tech roles
+
+| <img src="roles/tech/ai-engineer.png" width="120" alt="ai-engineer"> | <img src="roles/tech/backend-developer.png" width="120" alt="backend-developer"> | <img src="roles/tech/blockchain-developer.png" width="120" alt="blockchain-developer"> | <img src="roles/tech/cloud-architect.png" width="120" alt="cloud-architect"> | <img src="roles/tech/cto.png" width="120" alt="cto"> | <img src="roles/tech/cybersecurity-analyst.png" width="120" alt="cybersecurity-analyst"> |
+| Ai Engineer | Backend Developer | Blockchain Developer | Cloud Architect | Cto | Cybersecurity Analyst |
+| <img src="roles/tech/data-engineer.png" width="120" alt="data-engineer"> | <img src="roles/tech/data-scientist.png" width="120" alt="data-scientist"> | <img src="roles/tech/devops-engineer.png" width="120" alt="devops-engineer"> | <img src="roles/tech/embedded-engineer.png" width="120" alt="embedded-engineer"> | <img src="roles/tech/engineering-manager.png" width="120" alt="engineering-manager"> | <img src="roles/tech/frontend-developer.png" width="120" alt="frontend-developer"> |
+| Data Engineer | Data Scientist | Devops Engineer | Embedded Engineer | Engineering Manager | Frontend Developer |
+| <img src="roles/tech/game-developer.png" width="120" alt="game-developer"> | <img src="roles/tech/it-support-specialist.png" width="120" alt="it-support-specialist"> | <img src="roles/tech/machine-learning-engineer.png" width="120" alt="machine-learning-engineer"> | <img src="roles/tech/mobile-developer.png" width="120" alt="mobile-developer"> | <img src="roles/tech/network-engineer.png" width="120" alt="network-engineer"> | <img src="roles/tech/product-manager.png" width="120" alt="product-manager"> |
+| Game Developer | It Support Specialist | Machine Learning Engineer | Mobile Developer | Network Engineer | Product Manager |
+| <img src="roles/tech/qa-engineer.png" width="120" alt="qa-engineer"> | <img src="roles/tech/scrum-master.png" width="120" alt="scrum-master"> | <img src="roles/tech/site-reliability-engineer.png" width="120" alt="site-reliability-engineer"> | <img src="roles/tech/software-developer.png" width="120" alt="software-developer"> | <img src="roles/tech/tech-lead.png" width="120" alt="tech-lead"> | <img src="roles/tech/technical-writer.png" width="120" alt="technical-writer"> |
+| Qa Engineer | Scrum Master | Site Reliability Engineer | Software Developer | Tech Lead | Technical Writer |
+| <img src="roles/tech/ux-designer.png" width="120" alt="ux-designer"> |
+| Ux Designer |
+
+### Generic roles
+
+| <img src="roles/generic/actor.png" width="120" alt="actor"> | <img src="roles/generic/artist.png" width="120" alt="artist"> | <img src="roles/generic/astronaut.png" width="120" alt="astronaut"> | <img src="roles/generic/barista.png" width="120" alt="barista"> | <img src="roles/generic/chef.png" width="120" alt="chef"> | <img src="roles/generic/construction-worker.png" width="120" alt="construction-worker"> |
+| Actor | Artist | Astronaut | Barista | Chef | Construction Worker |
+| <img src="roles/generic/delivery-driver.png" width="120" alt="delivery-driver"> | <img src="roles/generic/detective.png" width="120" alt="detective"> | <img src="roles/generic/doctor.png" width="120" alt="doctor"> | <img src="roles/generic/farmer.png" width="120" alt="farmer"> | <img src="roles/generic/firefighter.png" width="120" alt="firefighter"> | <img src="roles/generic/journalist.png" width="120" alt="journalist"> |
+| Delivery Driver | Detective | Doctor | Farmer | Firefighter | Journalist |
+| <img src="roles/generic/judge.png" width="120" alt="judge"> | <img src="roles/generic/magician.png" width="120" alt="magician"> | <img src="roles/generic/mechanic.png" width="120" alt="mechanic"> | <img src="roles/generic/musician.png" width="120" alt="musician"> | <img src="roles/generic/nurse.png" width="120" alt="nurse"> | <img src="roles/generic/photographer.png" width="120" alt="photographer"> |
+| Judge | Magician | Mechanic | Musician | Nurse | Photographer |
+| <img src="roles/generic/pilot.png" width="120" alt="pilot"> | <img src="roles/generic/pirate.png" width="120" alt="pirate"> | <img src="roles/generic/police-officer.png" width="120" alt="police-officer"> | <img src="roles/generic/sailor.png" width="120" alt="sailor"> | <img src="roles/generic/scientist.png" width="120" alt="scientist"> | <img src="roles/generic/singer.png" width="120" alt="singer"> |
+| Pilot | Pirate | Police Officer | Sailor | Scientist | Singer |
+| <img src="roles/generic/soldier.png" width="120" alt="soldier"> | <img src="roles/generic/teacher.png" width="120" alt="teacher"> | <img src="roles/generic/veterinarian.png" width="120" alt="veterinarian"> | <img src="roles/generic/writer.png" width="120" alt="writer"> |
+| Soldier | Teacher | Veterinarian | Writer |
 ## Folder structure
 
 ```
@@ -75,10 +107,13 @@ companies/<company-slug>/
 ├── logo-512.png      # transparent PNG render of the logo (512×512)
 ├── logo-1024.png     # transparent PNG render of the logo (1024×1024)
 ├── mascot.png        # official mascot artwork, only where one genuinely exists
-├── mascots/           # when a company has several official mascot characters
-│                      # (e.g. OpenAI's Dots), one transparent PNG per character
 ├── sources.json      # exact source URL for every file in the folder
 └── MISSING.txt       # present only when an asset is intentionally absent, with the reason
+
+roles/
+├── tech/             # 25 tech role icons (1600×1600 transparent PNG)
+├── generic/          # 28 generic role icons (1600×1600 transparent PNG)
+└── contact-sheet.png # labeled preview grid of all 53 role icons
 ```
 
 All PNGs are rendered on transparent backgrounds, centered on a square canvas.
@@ -94,4 +129,4 @@ All PNGs are rendered on transparent backgrounds, centered on a square canvas.
 
 ## License
 
-The collection structure, build scripts, and this README are released under [CC0 1.0 Universal](LICENSE). **Third-party trademarks are not covered** — all logos, icons, and mascots remain the property of their respective owners.
+The collection structure, build scripts, and this README are released under [CC0 1.0 Universal](LICENSE). **Third-party trademarks are not covered** — all logos, icons, and mascots remain the property of their respective owners. The `roles/` icons are original artwork, also released under CC0 1.0 — free for any use, no attribution required.
